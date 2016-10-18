@@ -11,10 +11,6 @@ export EDITOR='sublime -w'
 # Ls colors
 export CLICOLOR=1
 
-# Aliases
-alias mount_dev36="mkdir /Volumes/dev36; sshfs dev36:/home/marc /Volumes/dev36"
-alias unmount_dev36="umount -f /Volumes/dev36"
-
 #ps1
 GIT_PS1_SHOWDIRTYSTATE=true
 function ps1 {
